@@ -6,46 +6,46 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml
+8-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml
+9-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:4:1-62
-11-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:4:18-60
+11-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:4:1-62
+11-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:4:18-60
 12
 13    <application
-13-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:5:5-20:19
+13-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:5:5-20:19
 14        android:allowBackup="true"
-14-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:6:9-35
+14-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:6:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 15-->[androidx.core:core:1.1.0] C:\Users\gaurav.goyal18\.gradle\caches\transforms-2\files-2.1\f71f8da7ba118f56b7a69563a8255a28\core-1.1.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:7:9-43
+17-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:7:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:8:9-41
+18-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:8:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:9:9-54
+19-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:9:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:10:9-35
+20-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:10:9-35
 21        android:theme="@style/AppTheme" >
-21-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:11:9-40
+21-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:11:9-40
 22        <activity
-22-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:12:9-19:20
+22-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:12:9-19:20
 23            android:name="com.example.kotlinassignment.activities.MainActivity"
-23-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:12:19-58
+23-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:12:19-58
 24            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-24-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:13:13-69
+24-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:13:13-69
 25            <intent-filter>
-25-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:14:13-18:29
+25-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:14:13-18:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:15:17-69
-26-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:15:25-66
+26-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:15:17-69
+26-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:15:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:17:17-77
-28-->C:\Users\gaurav.goyal18\Downloads\KotlinAssignment\app\src\main\AndroidManifest.xml:17:27-74
+28-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:17:17-77
+28-->D:\GitCloned Kotlin\Kotlin-Asssignment\app\src\main\AndroidManifest.xml:17:27-74
 29            </intent-filter>
 30        </activity>
 31    </application>

@@ -2,12 +2,8 @@ package com.example.kotlinassignment.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.telecom.Call
-import android.view.Window
-import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.TextView
-import androidx.appcompat.widget.Toolbar
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -28,9 +24,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         initView()
         retrofitCall()
-        //Window.FEATURE_NO_TITLE
+
     }
 
+    //Initializing views
     fun initView() {
         toolbar = findViewById(R.id.toolbar)
         recyclerListView = findViewById(R.id.recyclerList)
@@ -39,23 +36,25 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    //Retrofit api call to get the data and to bound with UI
     fun retrofitCall() {
         RetrofitObject.getApi().getData().enqueue(object : Callback<Items> {
             override fun onFailure(call: retrofit2.Call<Items>, t: Throwable) {
-                TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                Toast.makeText(this@MainActivity, "Somthing went wrong", Toast.LENGTH_LONG).show()
+
             }
 
             override fun onResponse(call: retrofit2.Call<Items>, response: Response<Items>) {
                 val items = response.body()
                 val rows = items?.rows
+
+                // will be wxwcutes only if the rows is not null
                 rows?.let {
                     // val adapter = ItemAdapter(rows, MainActivity::class)
                     val adapter = ItemAdapter(rows, this@MainActivity)
                     recyclerListView.adapter = adapter
                 }
-//                val adapter = ItemAdapter(rows)
-//
-//                recyclerListView.adapter = adapter
+
                 toolbar.setText(items?.title);
                 rows?.forEach {
                     println(it.title + " \n" + it.description + "\n" + it.imageHref)
