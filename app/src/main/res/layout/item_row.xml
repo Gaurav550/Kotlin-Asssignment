@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:gravity="left"
         android:padding="@dimen/padding_small"
-        android:text="My Title"
+        android:text="@string/Title_bar"
         android:textColor="@color/color_blue"
         android:textSize="@dimen/text_size_large" />
 
@@ -32,7 +32,7 @@
             android:layout_marginRight="@dimen/padding_small"
             android:layout_toLeftOf="@id/image"
             android:padding="@dimen/padding_small"
-            android:text="Description"
+            android:text="@string/item_description"
             android:textSize="@dimen/text_size_medium" />
 
         <ImageView
