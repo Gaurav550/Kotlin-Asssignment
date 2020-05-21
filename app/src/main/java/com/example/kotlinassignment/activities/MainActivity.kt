@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         initView()
         retrofitCall()
+        //test changes to pull on git
 
     }
 
